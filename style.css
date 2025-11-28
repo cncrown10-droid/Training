@@ -17,25 +17,28 @@
   padding: 80px 20px;
   text-align: center;
 }
-.slider-auto {
-  overflow: hidden;
-  position: relative;
+.portfolio {
+  padding: 60px 20px;
+  text-align: center;
+  background: #f4f4f4;
 }
 
-.slide-track {
+.slider {
   display: flex;
-  animation: defilement 20s linear infinite;
+  gap: 20px;
+  overflow-x: auto;         /* Scroll horizontal */
+  scroll-snap-type: x mandatory;
+  padding-bottom: 20px;
 }
 
-.slide-track img {
+.slider img {
   width: 300px;
   height: 200px;
-  margin-right: 20px;
   object-fit: cover;
   border-radius: 10px;
+  scroll-snap-align: center; /* S’aligne proprement */
 }
 
-@keyframes defilement {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+.slider::-webkit-scrollbar {
+  display: none; /* Désactive la barre de scroll */
 }
