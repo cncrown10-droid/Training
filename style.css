@@ -1,0 +1,12 @@
+.home {
+  background-image: url('image/file_0000000017bc62439a709d00be81e83d.png'); /* Ton image ici */
+  background-size: cover;       /* L’image couvre toute la section */
+  background-position: center;  /* Centrée */
+  background-repeat: no-repeat; /* Pas de répétition */
+  height: 100vh;                /* Hauteur égale à l’écran */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
