@@ -10,3 +10,10 @@
   position: relative;
   text-align: center;
 }
+
+.services {
+  background: linear-gradient(to bottom right, #0a0f29, #0d1b2a);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
