@@ -20,24 +20,14 @@
   margin: auto;
 }
 
-.portfolio-item {
+.portfolio-card {
   border-radius: 30px;
   overflow: hidden;
 }
 
 
-.portfolio-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* PHOTO ENTIÈRE */
-  objectif-position: left-center;
-  background: #000;     /* cadre propre */
-}
-
-
-
 /* Effet hover PRO */
-.portfolio-item:hover {
+.portfolio-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(6,7,7,4);
 }
