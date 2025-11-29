@@ -23,22 +23,3 @@
   background: #f4f4f4;
 }
 
-.slider {
-  display: flex;
-  gap: 20px;
-  overflow-x: auto;         /* Scroll horizontal */
-  scroll-snap-type: x mandatory;
-  padding-bottom: 20px;
-}
-
-.slider img {
-  width: 300px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 10px;
-  scroll-snap-align: center; /* S’aligne proprement */
-}
-
-.slider::-webkit-scrollbar {
-  display: none; /* Désactive la barre de scroll */
-}
