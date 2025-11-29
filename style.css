@@ -11,33 +11,6 @@
   text-align: center;
 }
 
-/* ----- PORTFOLIO ----- */
-.portfolio-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(25px, 1fr));
-  gap: 20px;
-  max-width: 120px;
-  margin: auto;
-}
-
-.portfolio-card {
-  border-radius: 30px;
-  overflow: hidden;
-}
-
-
-/* Effet hover PRO */
-.portfolio-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(6,7,7,4);
-}
-
-.portfolio-item:hover img {
-  transform: scale(1.08);
-}
-
-
-}
 
 #services {
   text-align: center;
