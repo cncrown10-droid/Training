@@ -12,21 +12,16 @@
 }
 
 /* ----- PORTFOLIO ----- */
-#portfolio {
-  padding: 60px 20px;
-  text-align: center;
-}
-
 .portfolio-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(25px, 1fr));
   gap: 20px;
-  max-width: 1200px;
+  max-width: 120px;
   margin: auto;
 }
 
 .portfolio-item {
-  border-radius: 15px;
+  border-radius: 30px;
   overflow: hidden;
 }
 
@@ -44,7 +39,7 @@
 /* Effet hover PRO */
 .portfolio-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  box-shadow: 0 10px 25px rgba(6,7,7,4);
 }
 
 .portfolio-item:hover img {
