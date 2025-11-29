@@ -23,3 +23,37 @@
   background: #f4f4f4;
 }
 
+/* SECTION CENTRÉE */
+#services {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* GRILLE DES CARDS */
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
+  gap: 20px;
+  max-width: 900px;
+  margin: auto; /* centre la grille */
+}
+
+/* STYLE DES CARDS */
+.service-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+@media (max-width: 700px) {
+  .services-container {
+    grid-template-columns: 1fr; /* 1 card par ligne */
+  }
+
+  .service-card {
+    text-align: center;
+  }
+}
+
